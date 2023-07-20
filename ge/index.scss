@@ -1,0 +1,53 @@
+// google font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// variables
+@import 'variables';
+
+// reset
+@import 'reset';
+
+// components
+@import 'components/button';
+@import 'components/input';
+@import 'components/label';
+@import 'components/header';
+@import 'components/card1';
+@import 'components/card2';
+@import 'components/separator';
+
+// css for demo
+.demo {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 25px;
+  background-color: #fafbfd;
+
+  .container {
+    margin-bottom: 20px;
+
+    .contents {
+      display: flex;
+      gap: 10px;
+
+      &.downwards {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      > div {
+        align-self: start;
+      }
+    }
+
+    .label-header {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #555;
+    }
+  }
+}

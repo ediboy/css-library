@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ge-button {
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+.ge-button.primary {
+  background: #3d5ca6;
+  color: white;
+}
+.ge-button.primary:hover {
+  background: #375395;
+}
+.ge-button.primary:active {
+  background: #314a85;
+}
+.ge-button.primary.light {
+  background: #eceff6;
+  color: black;
+}
+.ge-button.primary.light:hover {
+  background: #e2e7f2;
+}
+.ge-button.primary.light:active {
+  background: #c3cce3;
+}
+.ge-button.primary.dark {
+  background: #2e457d;
+  color: white;
+}
+.ge-button.primary.dark:hover {
+  background: #253764;
+}
+.ge-button.primary.dark:active {
+  background: #1b294b;
+}
+.ge-button.secondary {
+  background: #597298;
+  color: white;
+}
+.ge-button.secondary:hover {
+  background: #506789;
+}
+.ge-button.secondary:active {
+  background: #475b7a;
+}
+.ge-button.secondary.light {
+  background: #eef1f5;
+  color: black;
+}
+.ge-button.secondary.light:hover {
+  background: #e6eaf0;
+}
+.ge-button.secondary.light:active {
+  background: #ccd3df;
+}
+.ge-button.secondary.dark {
+  background: #435672;
+  color: white;
+}
+.ge-button.secondary.dark:hover {
+  background: #35445b;
+}
+.ge-button.secondary.dark:active {
+  background: #283344;
+}
+.ge-button.tertiary {
+  background: #00a991;
+  color: white;
+}
+.ge-button.tertiary:hover {
+  background: #009883;
+}
+.ge-button.tertiary:active {
+  background: #008774;
+}
+.ge-button.tertiary.light {
+  background: #e6f6f4;
+  color: black;
+}
+.ge-button.tertiary.light:hover {
+  background: #d9f2ef;
+}
+.ge-button.tertiary.light:active {
+  background: #b0e4dd;
+}
+.ge-button.tertiary.dark {
+  background: #007f6d;
+  color: white;
+}
+.ge-button.tertiary.dark:hover {
+  background: #006557;
+}
+.ge-button.tertiary.dark:active {
+  background: #004c41;
+}
+
+.ge-input {
+  width: 100%;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #f7f8f9;
+  border-color: #cacacb;
+  box-shadow: none;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.ge-label {
+  color: gray;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.ge-card-1 {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: start;
+}
+
+.ge-card-2 {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ge-separator {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.demo {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 25px;
+  background-color: #fafbfd;
+}
+.demo .container {
+  margin-bottom: 20px;
+}
+.demo .container .contents {
+  display: flex;
+  gap: 10px;
+}
+.demo .container .contents.downwards {
+  flex-direction: column;
+  gap: 15px;
+}
+.demo .container .contents > div {
+  align-self: start;
+}
+.demo .container .label-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
