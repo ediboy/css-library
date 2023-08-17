@@ -12,17 +12,19 @@
 @import 'components/input';
 @import 'components/label';
 @import 'components/header';
-@import 'components/card1';
-@import 'components/card2';
+@import 'components/card';
 @import 'components/separator';
 
-// css for demo
-.demo {
+body {
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+// css for demo
+.demo {
   padding: 25px;
   background-color: #fafbfd;
 
